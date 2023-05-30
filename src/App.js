@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useEffect, useState } from 'react';
-import Product from './components/Products';
+import Products from './components/Products';
 import Header from './components/Header';
 import Footer from './components/Footer';
 function App() {
@@ -26,7 +26,7 @@ function App() {
           product.map((products) => {
             return (
               <div className='col-md-3' style={{ marginBottom: "10px" }}>
-             <Product product = {products}/>
+             <Products product = {products}/>
              </div>
             )
           })
