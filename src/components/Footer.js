@@ -10,10 +10,10 @@ function Footer() {
             <h5>Section</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Products</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Category</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Productdetail</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Cart</a></li>
             </ul>
           </div>
 
@@ -21,10 +21,10 @@ function Footer() {
             <h5>Section</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Products</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Category</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Productdetail</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Cart</a></li>
             </ul>
           </div>
 
@@ -32,10 +32,10 @@ function Footer() {
             <h5>Section</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Products</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Category</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Productdetail</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Cart</a></li>
             </ul>
           </div>
 
