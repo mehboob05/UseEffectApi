@@ -1,10 +1,20 @@
 
 
-function Cart (){
-    return(
+function Cart(props) {
+    return (
         <>
-        cart
-        </>  
+            <h2>Our Cart Items</h2>
+            {
+                props.cart.map((product) => {
+                    return (
+                        <>
+                          
+                        </>
+                    )
+                })
+            }
+
+        </>
     );
 }
 

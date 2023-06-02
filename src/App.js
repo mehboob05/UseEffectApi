@@ -13,6 +13,7 @@ import Productdetail from './pages/Productdetail';
 
 function App() {
   const [product, setProduct] = useState([]);
+  const [cart,setCart] = useState([]);
   useEffect(() => {
     fetch("https://fakestoreapi.com/products").then((data) => {   //fetch data
       return data.json();
@@ -23,18 +24,26 @@ function App() {
     }).catch((err) => {
       console.log(err);     //catch error 
     })
-  }, []);
+  }, []); 
+
+  const addToCart = (product)=>{
+
+  const newArr =[...cart,product];
+   setCart(newArr);
+
+  }
+  console.log(cart);
   return (
     <div className="container">
-      <Header/>
+      <Header cart={cart}/>
      
      
       <Routes>
-      <Route path='/' element={<Home product={product} />}/>
-      <Route path='/category' element={<Category/>}/>
+      <Route path='/' element={<Home addToCart={addToCart} product={product} />}/>
+      <Route path='/category/' element={<Category/>}/>
       <Route path='/productdetail/:id' element={<Productdetail/>}/>
         <Route path='/contact' element={<Contacts/>}/>
-        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/cart' element={<Cart cart={cart} />}/>
        
       </Routes>
       

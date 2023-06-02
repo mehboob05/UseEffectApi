@@ -12,7 +12,7 @@ function Home(props) {
             props.product.map((products) => {
               return (
                 <div className='col-md-3' style={{ marginBottom: "10px" }}>
-                  <Products product={products} key={products.id} />
+                  <Products addToCart={props.addToCart} product={products} key={products.id} />
                 </div>
               )
             })

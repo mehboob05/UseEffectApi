@@ -10,7 +10,7 @@ function Product (props){
                   <div className="card-body">
                     <h5 className="card-title text-truncate">{props.product.title}</h5>
                     <p className="card-text">${props.product.price}</p>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                    <button onClick={() =>{props.addToCart(props.product)}} className="btn btn-primary">Add to Cart</button>
                     <Link to={`/productdetail/${props.product.id}`} className="btn btn-primary ms-3">View </Link>
                 </div>
               </div>

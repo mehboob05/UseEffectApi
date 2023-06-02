@@ -43,7 +43,7 @@ if(Object.keys(product).length >0){
                             <p><b>Category: </b> {product.category}</p>
                             <p><b>Price: </b>${product.price}</p>
                             <div dangerouslySetInnerHTML={{__html:ratingJSX}}></div>
-                            <button className="float-end btn btn-primary" href="#">Add Cart</button>
+                            <button className="float-end btn btn-primary mb-3" href="#">Add Cart</button>
                         </div>
                     </div>
                 </div>
