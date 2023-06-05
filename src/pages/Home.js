@@ -1,11 +1,16 @@
 import Products from '../components/Products';
 
+
 function Home(props) {
+
+ 
+
 
   if (props.product.length > 0) {
     return (
 
       <>
+      
         <h1 className='my-3'>Our Products</h1>
         <div className='row'>
           {
@@ -24,13 +29,13 @@ function Home(props) {
 
     return (
       <>
-      <div className='d-block mx-auto my-4 text-center'>
-      <div class="spinner-border text-primary" role="status">
-        <span class="sr-only"></span>
-      </div>
-      </div>
+        <div className='d-block mx-auto my-4 text-center'>
+          <div class="spinner-border text-primary" role="status">
+            <span class="sr-only"></span>
+          </div>
+        </div>
       </>
-      )
+    )
 
   }
 }
