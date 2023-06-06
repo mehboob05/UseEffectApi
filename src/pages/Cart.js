@@ -1,14 +1,14 @@
 
 
 function Cart(props) {
-  
-let total = 0;
-
-
+    let total = 0;
+ 
     return (
 
         <>
+         <button onClick={()=>{props.removeCartAll(props.product)}} className="btn btn-secondary btn-md float-end mt-4 me-3">Clear All</button>
             <h2>Our Cart Items</h2>
+           
            
 {
              
@@ -42,7 +42,8 @@ let total = 0;
                                                             <h5 className="mb-0">${product.price}</h5>
                                                         </div>
                                                         <div className="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                           <button className="btn btn-danger btn-md">Delete</button>
+                                                        <svg onClick={()=>{props.removeToCart(props.product)}} xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style={{fill: "rgba(245, 0, 0, 0.9)" ,transform: "msFilter"}}><path d="M5 20a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8h2V6h-4V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H3v2h2zM9 4h6v2H9zM8 8h9v12H7V8z"></path><path d="M9 10h2v8H9zm4 0h2v8h-2z"></path></svg>
+                                                           
                                                         </div>
                                                     </div>
                                                 </div>
@@ -65,6 +66,10 @@ let total = 0;
 
         </>
     );
+
+
+
+    
 }
 
 export default Cart;
