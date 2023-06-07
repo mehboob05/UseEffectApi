@@ -12,6 +12,7 @@ function Home(props) {
       <>
       
         <h1 className='my-3'>Our Products</h1>
+        <input type='text' className='mx-auto d-flex ' onKeyUp={(e)=> props.searchProducts(e.target.value)}/>
         <div className='row'>
           {
             props.product.map((products) => {

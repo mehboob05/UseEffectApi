@@ -80,10 +80,10 @@ const searchProducts =(search) => {
 
 
       <Header cart={cart} />
-      <input type='text' onKeyUp={(e)=> searchProducts(e.target.value)}/>
+     
 
       <Routes>
-        <Route path='/' element={<Home  addToCart={addToCart} product={filteredProducts} />} />
+        <Route path='/' element={<Home searchProducts={searchProducts} addToCart={addToCart} product={filteredProducts} />} />
         <Route path='/category/' element={<Category />} />
         <Route path='/productdetail/:id' element={<Productdetail />} />
         <Route path='/contact' element={<Contacts />} />

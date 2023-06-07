@@ -2,12 +2,12 @@
 
 function Cart(props) {
     let total = 0;
- 
+   
     return (
 
         <>
          <button onClick={()=>{props.removeCartAll(props.product)}} className="btn btn-secondary btn-md float-end mt-4 me-3">Clear All</button>
-            <h2>Our Cart Items</h2>
+            <h2 className="mt-4">Our Cart Items</h2>
            
            
 {
@@ -18,10 +18,10 @@ function Cart(props) {
                     return (
                         <>
                             
-                            <section className="h-100" style={{backgroundColor: "#eee"}}>
-                                <div className="container py-4  ">
+                            <section className="h-100 " style={{backgroundColor: "#eee"}}>
+                                <div className="container  py-4 mt-3 ">
                                
-                                    <div className="row d-flex justify-content-center align-items-center h-100 mt-2">
+                                    <div className="row d-flex justify-content-center align-items-center h-100 mt-3">
                                         <div className="col-10 ">
 
                                             <div className="card rounded-3 mb-2">
@@ -61,8 +61,15 @@ function Cart(props) {
 
                 
             }
-
-             <h1>Total:${total}</h1> 
+            <div className="row mt-3">
+                <div className="col-md-8">
+                <h1>Total: </h1> 
+                </div>
+                <div className="col-md-4 ">
+                <h1>${total}</h1> 
+                </div>
+            </div>
+            
 
         </>
     );
