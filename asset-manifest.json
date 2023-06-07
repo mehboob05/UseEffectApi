@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.98ec47ca.css",
-    "main.js": "/static/js/main.20a235ab.js",
-    "static/media/jewelery.jpg": "/static/media/jewelery.de59c9fd82b306c98ec8.jpg",
-    "static/media/women.jpg": "/static/media/women.4f375ca1ce85be568bc5.jpg",
-    "static/media/electronics.jpg": "/static/media/electronics.4593eda7459a662d117f.jpg",
-    "static/media/men.jpg": "/static/media/men.5d77732d29bbb17d7fb9.jpg",
-    "index.html": "/index.html",
-    "main.98ec47ca.css.map": "/static/css/main.98ec47ca.css.map",
-    "main.20a235ab.js.map": "/static/js/main.20a235ab.js.map"
+    "main.css": "/github.io/Use_Effect_Api/static/css/main.98ec47ca.css",
+    "main.js": "/github.io/Use_Effect_Api/static/js/main.39c8d84a.js",
+    "static/media/jewelery.jpg": "/github.io/Use_Effect_Api/static/media/jewelery.de59c9fd82b306c98ec8.jpg",
+    "static/media/women.jpg": "/github.io/Use_Effect_Api/static/media/women.4f375ca1ce85be568bc5.jpg",
+    "static/media/electronics.jpg": "/github.io/Use_Effect_Api/static/media/electronics.4593eda7459a662d117f.jpg",
+    "static/media/men.jpg": "/github.io/Use_Effect_Api/static/media/men.5d77732d29bbb17d7fb9.jpg",
+    "index.html": "/github.io/Use_Effect_Api/index.html",
+    "main.98ec47ca.css.map": "/github.io/Use_Effect_Api/static/css/main.98ec47ca.css.map",
+    "main.39c8d84a.js.map": "/github.io/Use_Effect_Api/static/js/main.39c8d84a.js.map"
   },
   "entrypoints": [
     "static/css/main.98ec47ca.css",
-    "static/js/main.20a235ab.js"
+    "static/js/main.39c8d84a.js"
   ]
 }
