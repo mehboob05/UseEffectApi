@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/github.io/useeffect/static/css/main.98ec47ca.css",
-    "main.js": "/github.io/useeffect/static/js/main.3d0a3cc4.js",
-    "static/media/jewelery.jpg": "/github.io/useeffect/static/media/jewelery.de59c9fd82b306c98ec8.jpg",
-    "static/media/women.jpg": "/github.io/useeffect/static/media/women.4f375ca1ce85be568bc5.jpg",
-    "static/media/electronics.jpg": "/github.io/useeffect/static/media/electronics.4593eda7459a662d117f.jpg",
-    "static/media/men.jpg": "/github.io/useeffect/static/media/men.5d77732d29bbb17d7fb9.jpg",
-    "index.html": "/github.io/useeffect/index.html",
-    "main.98ec47ca.css.map": "/github.io/useeffect/static/css/main.98ec47ca.css.map",
-    "main.3d0a3cc4.js.map": "/github.io/useeffect/static/js/main.3d0a3cc4.js.map"
+    "main.css": "/useeffect/static/css/main.98ec47ca.css",
+    "main.js": "/useeffect/static/js/main.9631a5fd.js",
+    "static/media/jewelery.jpg": "/useeffect/static/media/jewelery.de59c9fd82b306c98ec8.jpg",
+    "static/media/women.jpg": "/useeffect/static/media/women.4f375ca1ce85be568bc5.jpg",
+    "static/media/electronics.jpg": "/useeffect/static/media/electronics.4593eda7459a662d117f.jpg",
+    "static/media/men.jpg": "/useeffect/static/media/men.5d77732d29bbb17d7fb9.jpg",
+    "index.html": "/useeffect/index.html",
+    "main.98ec47ca.css.map": "/useeffect/static/css/main.98ec47ca.css.map",
+    "main.9631a5fd.js.map": "/useeffect/static/js/main.9631a5fd.js.map"
   },
   "entrypoints": [
     "static/css/main.98ec47ca.css",
-    "static/js/main.3d0a3cc4.js"
+    "static/js/main.9631a5fd.js"
   ]
 }
